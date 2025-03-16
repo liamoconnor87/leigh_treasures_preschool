@@ -1,0 +1,52 @@
+:root {
+    --white: rgb(255, 255, 255);
+    --dark-green: rgb(34, 85, 64);
+    --orange: rgb(234, 148, 11);
+    --dark-blue: rgb(22, 90, 179);
+    --sunny: "Sunshiney", cursive;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: var(--sunny);
+    background-color: var(--white);
+    color: var(--dark-green);
+    height: 100vh;
+}
+
+.leigh-treasures-logo {
+    margin-top: 2rem;
+    width: 20rem;
+}
+
+.coming-soon {
+    font-size: 5rem;
+
+}
+
+.leigh-treasures-title {
+    color: var(--orange);
+    font-size: 3rem;
+}
+
+.announcement {
+    font-size: 1.5rem;
+    color: var(--dark-blue);
+}
+
+.address {
+    font-size: 1.5rem;
+    color: var(--dark-green);
+}
+
+.lil-hands {
+    background-image: url("https://www.dropbox.com/scl/fi/muj9stl7add8nu555av11/image-hands-colour-07032025.png?rlkey=9loc9rkcmldi7a22hno5iikfw&st=9jqukuwc&raw=1");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    left: 0;
+    right:0;
+}
