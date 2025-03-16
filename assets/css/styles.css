@@ -14,7 +14,8 @@ body {
     font-family: var(--sunny);
     background-color: var(--white);
     color: var(--dark-green);
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
 }
 
 .leigh-treasures-logo {
@@ -33,20 +34,39 @@ body {
 }
 
 .announcement {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     color: var(--dark-blue);
 }
 
 .address {
     font-size: 1.5rem;
     color: var(--dark-green);
+    font-weight: bold;
+}
+
+.address > span{
+    font-weight: normal;
 }
 
 .lil-hands {
-    background-image: url("https://www.dropbox.com/scl/fi/muj9stl7add8nu555av11/image-hands-colour-07032025.png?rlkey=9loc9rkcmldi7a22hno5iikfw&st=9jqukuwc&raw=1");
+    background-image: url("https://www.dropbox.com/scl/fi/r1dkaabrn7e12vwfdx2yj/lil-hands.png?rlkey=q31e3qbca0qs1u386qgffcoq9&st=4mwwzcyn&raw=1");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom center;
     left: 0;
     right:0;
+}
+
+h3 {
+    /* text-decoration: underline; */
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-green);
+}
+
+a:hover {
+    text-decoration: underline;
 }
