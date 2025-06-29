@@ -38,6 +38,16 @@ body {
     color: var(--dark-blue);
 }
 
+.open-days-title {
+    font-size: 2.3rem;
+    color: var(--orange);
+    text-decoration: underline;
+}
+.open-days {
+    font-size: 1.8rem;
+    color: var(--orange);
+}
+
 .address {
     font-size: 1.7rem;
     color: var(--dark-green);
